@@ -23,3 +23,11 @@ ___
 [short-video-generate](https://github.com/ayuLiao/short-video-generate)
 
 [weixin-chat](https://gitee.com/lifeixue/weixin-chat)
+
+1、设置镜像以清华镜像为例，直接在user目录中创建一个pip目录，如：C:\Users\用户名\pip，新建文件pip.ini，文件内容如下：
+
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+
+2、安装
+ pip install -r requirements.txt
